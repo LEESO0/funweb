@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+.clear{clear: both;}
+
+#main_img{
+	width: 971px;
+	height: 308px;
+	background-image: url("../images/img_back.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#main_img img{
+	margin: 9px 0 0 0;
+}
+
+/* -------------------------------- */
+article#front{
+	margin: 5px 0px 5px 0px;
+}
+article#front h1 {
+	font-family: "Times New Roman";
+	font-size: 45px;
+	color: #625348;
+	margin: 20px 0 20px 20px;
+/* 	font-weight: normal; */
+}
+#solution{
+	width:910px;
+	min-height: 172px;
+	border: 1px solid #FFFFFF;
+	background-color: #a7866eb5;
+	padding: 10px;
+	margin: 0 0 0 20px;
+	border-radius: 10px;
+}
+
+/* =========================================================== */
+#hosting{
+	width: 30%;
+	padding: 10px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+#hosting div {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+}
+#hosting span.type {
+	display: inline-block;
+	text-align: center;
+	border-radius: 3px;
+    background-color: #af907fed;
+    color: white;
+    padding: 3px;
+}
+#hosting h3{
+	font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border: 1px 0 1px 0;
+    padding: 6px;
+}
+#hosting p{
+	font-size: 12px;
+    color: #333;
+    /* margin: 0px 0 0px 80px; */
+    text-align: center;
+    height: 56px;
+}
+/* #hosting{ */
+/* 	background-image: url("../images/icon1.png"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: left 15px; */
+/* } */
+/* #security{ */
+/* 	background-image: url("../images/icon2.png"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: left 15px; */
+/* } */
+/* #payment{ */
+/* 	background-image: url("../images/icon3.png"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: left 15px; */
+/* } */
+/* ================================================================== */
+/* -------------------------------- */
+
+#sec_news, #news_notice{
+	float: left;
+/* 	width: 420px; */
+	width: 450px;
+	margin: 15px 0 0 22px;
+	background-color: #a7866eb5;
+	border-radius: 10px;
+}
+
+#sec_news h3, #news_notice h3{
+	font-size: 27px;
+    font-family: "Times New Roman";
+    /* font-style: italic; */
+    /* font-weight: normal; */
+    width: 420px;
+    height: 11px;
+    /* background-image: url(../images/h3_back.jpg); */
+    /* background-repeat: no-repeat; */
+    padding: 0px 0 0 20px;
+    color: #fff;
+
+}
+
+/* #sec_news .orange{ */
+/* 	color: #f26522; */
+/* } */
+#sec_news table{
+/* 	color: white; */
+	font-size: small;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 430px;
+/* 	width: 400px; */
+	border-collapse: collapse;
+	text-align: center;
+}
+#sec_news td{
+	padding: 6px 4px;
+    height: 20px;
+    color: #fff;
+    border-top-width: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+/*     background-color: #af907fed; */
+/* 	border-bottom-width: 1px; */
+/* 	border-bottom-style: solid; */
+/* 	border-bottom-color: #fff; */
+}
+#sec_news td.contxt{
+/* 	background-image: url("../images/tr_back.gif"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: left center; */
+	padding-left: 15px;
+	text-align: left;
+}
+#sec_news a{
+	color: #fff;
+	font-size: small;
+	font-weight: normal;
+	text-decoration: none;
+}
+#sec_news a:hover{
+	color: #F90;
+	font-size: small;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* #news_notice .brown{ */
+/* 	color: #827b00; */
+/* } */
+#news_notice table{
+/* 	color: white; */
+	font-size: small;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 430px;
+/* 	width: 400px; */
+	border-collapse: collapse;
+	text-align: center;
+}
+#news_notice td{
+	padding: 6px 4px;
+    height: 20px;
+    color: #fff;
+    border-top-width: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+/*     background-color: #fff; */
+/* 	border-bottom-width: 1px; */
+/* 	border-bottom-style: solid; */
+/* 	border-bottom-color: #999; */
+}
+#news_notice td.contxt {
+/* 	background-image: url("../images/tr_back.gif"); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: left center; */
+	padding-left: 15px;
+	text-align: left;
+}
+#news_notice a{
+	color: #fff;
+	font-size: small;
+	font-weight: normal;
+	text-decoration: none;
+}
+#news_notice a:hover{
+	color: #F90;
+	font-size: small;
+	font-weight: normal;
+	text-decoration: none;
+}
